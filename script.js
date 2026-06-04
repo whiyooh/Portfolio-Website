@@ -3,13 +3,13 @@ const PROJECTS = [
         id: 1,
         title: "Cassino Slots",
         category: "Crash Game",
-        thumbnailUrl: "images/Rabbit.image.png",
-        imageUrl: "images/Rabbit.image.png",
+        thumbnailUrl: "images\PROJETOS\CASSINO SLOTS IMAGE.png",
+        imageUrl: "images\PROJETOS\CASSINO SLOTS IMAGE.png",
         description: "Art to slots games, personally developed for cassino games",
         fullDescription: "A revolutionary art style to crash game, slots social art, the visual style focuses on high contrast neon elements against deep void backgrounds to maximize visual immersion.",
         tags: ["Crash Game", "Multiplayer", "Cyberpunk"],
         image: "linear-gradient(45deg, #2a0f45 0%, #120626 100%)",
-        behanceUrl: "https://www.behance.net",
+        behanceUrl: "https://www.behance.net/gallery/245352657/CRIATIVOS-IGAMING",
         details: [
             "Implemented responsive UI components for desktop and mobile.",
             "Collaborated with sound designers to sync visuals to audio cues.",
@@ -53,13 +53,13 @@ const PROJECTS = [
         id: 4,
         title: "Doodle art",
         category: "Interactive Story",
-        thumbnailUrl: "images/borb doodlew.png",
-        imageUrl: "images/borb doodlew.png",
+        thumbnailUrl: "images\PROJETOS\borb doodlew.png",
+        imageUrl: "images\PROJETOS\borb doodlew.png",
         description: "Narrative-driven bonus round experience for premium slots.",
         fullDescription: "A fully interactive bonus game where players explore a haunted manor to uncover multipliers. The art direction leans heavily into gothic horror with stylized, hand-painted textures and atmospheric lighting.",
         tags: ["Interactive", "Story", "Horror"],
         image: "linear-gradient(45deg, #1f0f45 0%, #120626 100%)",
-        behanceUrl: "https://www.behance.net",
+        behanceUrl: "https://www.behance.net/gallery/220459373/Doodle-art",
         details: [
             "Created branching dialogue system with visual nodes.",
             "Illustrated 50+ hand-painted backgrounds."
@@ -67,15 +67,15 @@ const PROJECTS = [
     },
     {
         id: 5,
-        title: "Criativos visuais",
+        title: "Criativos Marketplace",
         category: "Table Game",
         thumbnailUrl: "images/criativos png.png",
         imageUrl: "images/criativos png.png",
         description: "Modern reimagining of classic dice games with holographic UI.",
-        fullDescription: "We stripped away the felt table and replaced it with a holographic projection interface. Physics-based dice rolls combined with clean, data-driven UI elements create a sophisticated gaming experience for the modern player.",
+        fullDescription:"We stripped away the felt table and replaced it with a holographic projection interface. Physics-based dice rolls combined with clean, data-driven UI elements create a sophisticated gaming experience for the modern player.",
         tags: ["Table Game", "UI Design", "Holographic"],
         image: "linear-gradient(45deg, #0f453f 0%, #120626 100%)",
-        behanceUrl: "https://www.behance.net",
+        behanceUrl: "https://www.behance.net/gallery/236509481/Aguas-das-pedras",
         details: [
             "Prototype built with Three.js for real-time dice physics.",
             "Developed custom shader for holographic overlays."
@@ -83,7 +83,7 @@ const PROJECTS = [
     },
     {
         id: 6,
-        title: "Marketplace",
+        title: "Branding",
         category: "Jackpot System",
         thumbnailUrl: "images/marketplace.png",
         imageUrl: "images/marketplace.png",
@@ -91,13 +91,16 @@ const PROJECTS = [
         fullDescription: "A cohesive visual system for a multi-game jackpot network. Includes the design of the jackpot meters, trigger animations, and the massive 'Big Win' celebration sequences that take over the screen.",
         tags: ["Jackpot", "VFX", "System Design"],
         image: "linear-gradient(45deg, #453a0f 0%, #120626 100%)",
-        behanceUrl: "https://www.behance.net",
+        behanceUrl: "https://www.behance.net/gallery/220167369/PIC-NIC-SN-",
         details: [
             "Implemented live updating jackpot meters with SVG animations.",
             "Designed victory sequences that trigger across all connected games."
         ]
     }
 ];
+
+
+  addEventListener
 
 const progressBar = document.getElementById('progressBar');
 const navToggle = document.getElementById('navToggle');
@@ -255,6 +258,10 @@ function renderProjects() {
 
     observeFadeElements();
 }
+
+
+
+
 
 function openModal(project) {
     if (!modalOverlay) return;

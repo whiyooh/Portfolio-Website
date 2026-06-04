@@ -691,7 +691,7 @@ img {
 .project-tags {
     display: flex;
     flex-wrap: wrap;
-    gap: 8px;
+    gap: 0px;
 }
 
 .hero-carousel {
@@ -711,7 +711,7 @@ img {
 
 .carousel-track {
     display: flex;
-    gap: 22px;
+    gap: 1px;
     animation: carousel-scroll 19s linear infinite;
     will-change: transform;
 }
