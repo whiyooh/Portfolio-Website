@@ -1,29 +1,29 @@
 const PROJECTS = [
     {
         id: 1,
-        title: "Cassino Slots",
+        title: "Criativos iGaming",
         category: "Crash Game",
-        thumbnailUrl: "images\PROJETOS\CASSINO SLOTS IMAGE.png",
-        imageUrl: "images\PROJETOS\CASSINO SLOTS IMAGE.png",
-        description: "Art to slots games, personally developed for cassino games",
-        fullDescription: "A revolutionary art style to crash game, slots social art, the visual style focuses on high contrast neon elements against deep void backgrounds to maximize visual immersion.",
+        thumbnailUrl: "images/PROJETOS/CASSINO SLOTS IMAGE.png",
+        imageUrl: "images/PROJETOS/CASSINO SLOTS IMAGE.png",
+        description: "Arte para jogos de slots, desenvolvida para experiências de cassino.",
+        fullDescription: "A narrativa visual explora movimento, competição e recompensas, criando composições dinâmicas que convidam o usuário a interagir com a plataforma.",
         tags: ["Crash Game", "Multiplayer", "Cyberpunk"],
         image: "linear-gradient(45deg, #2a0f45 0%, #120626 100%)",
         behanceUrl: "https://www.behance.net/gallery/245352657/CRIATIVOS-IGAMING",
         details: [
-            "Implemented responsive UI components for desktop and mobile.",
-            "Collaborated with sound designers to sync visuals to audio cues.",
-            "Integrated multiplayer lobby and real-time leaderboards."
+            "Personagens 3D carismáticos para gerar identificação imediata.",
+            "Tipografia forte e dinâmica para reforçar mensagens promocionais",
+            "Composição centrada no personagem, com o cenário como suporte narrativo."
         ]
     },
     {
         id: 2,
         title: "Peças institucionais",
         category: "Video Slot",
-        thumbnailUrl: "images/institucional art.png",
-        imageUrl: "images/institucional art.png",
-        description: "Patch developed to events from company",
-        fullDescription: "A set of institutional visual pieces developed for company events and communication materials.",
+        thumbnailUrl: "images/institucional%20art.png",
+        imageUrl: "images/institucional%20art.png",
+        description: "Peças visuais institucionais criadas para eventos corporativos.",
+        fullDescription: "Conjunto de peças institucionais desenvolvidas para eventos e materiais de comunicação da empresa.",
         tags: ["Slots", "3D Animation", "Mobile First"],
         image: "linear-gradient(45deg, #450f1f 0%, #120626 100%)",
         behanceUrl: "https://www.behance.net/gallery/239044541/Happy-children-day-art",
@@ -34,15 +34,15 @@ const PROJECTS = [
     },
     {
         id: 3,
-        title: "Cassino ao vivo",
+        title: "landing pages",
         category: "Instant Win",
-        thumbnailUrl: "images/cassino ao vivo.png",
-        imageUrl: "images/cassino ao vivo.png",
-        description: "Procedurally generated runner game with instant betting mechanics.",
-        fullDescription: "Players bet on how far the runner will go in this procedurally generated sci-fi world. The visual style uses a unique wireframe aesthetic blended with realistic lighting effects to create a retro-futuristic vibe.",
+        thumbnailUrl: "images/PROJETOS/criativos.png",
+        imageUrl: "images/PROJETOS/criativos.png",
+        description: "Landing pages de alta conversão com estética sci‑fi e shaders wireframe.",
+        fullDescription: "Landing pages otimizadas para conversão, com estética retro‑futurista e efeitos wireframe que reforçam a narrativa visual em dispositivos móveis e desktop.",
         tags: ["Instant Win", "Procedural", "Sci-Fi"],
         image: "linear-gradient(45deg, #0f2a45 0%, #120626 100%)",
-        behanceUrl: "https://www.behance.net",
+        behanceUrl: "https://www.behance.net/gallery/248605695/Pressel-Landing-Page-de-Conversao",
         details: [
             "Designed wireframe shaders using GLSL.",
             "Built asset pipeline to support procedural environments.",
@@ -53,10 +53,10 @@ const PROJECTS = [
         id: 4,
         title: "Doodle art",
         category: "Interactive Story",
-        thumbnailUrl: "images\PROJETOS\borb doodlew.png",
-        imageUrl: "images\PROJETOS\borb doodlew.png",
-        description: "Narrative-driven bonus round experience for premium slots.",
-        fullDescription: "A fully interactive bonus game where players explore a haunted manor to uncover multipliers. The art direction leans heavily into gothic horror with stylized, hand-painted textures and atmospheric lighting.",
+        thumbnailUrl: "images/PROJETOS/borb doodlew.png",
+        imageUrl: "images/PROJETOS/borb doodlew.png",
+        description: "Série de ilustrações doodle e experiências narrativas interativas.",
+        fullDescription: "Experiência narrativa interativa com ilustrações doodle, explorando cenários lúdicos e texturas pintadas à mão para criar uma atmosfera única.",
         tags: ["Interactive", "Story", "Horror"],
         image: "linear-gradient(45deg, #1f0f45 0%, #120626 100%)",
         behanceUrl: "https://www.behance.net/gallery/220459373/Doodle-art",
@@ -66,16 +66,16 @@ const PROJECTS = [
         ]
     },
     {
-        id: 5,
-        title: "Criativos Marketplace",
+        id: 5, 
+        title: "Website Commerce",
         category: "Table Game",
-        thumbnailUrl: "images/criativos png.png",
-        imageUrl: "images/criativos png.png",
-        description: "Modern reimagining of classic dice games with holographic UI.",
-        fullDescription:"We stripped away the felt table and replaced it with a holographic projection interface. Physics-based dice rolls combined with clean, data-driven UI elements create a sophisticated gaming experience for the modern player.",
+        thumbnailUrl: "images/PROJETOS/visual commerce.png",
+        imageUrl: "images/PROJETOS/visual commerce.png",
+        description: "Website de comércio visual com foco em experiência de compra imersiva.",
+        fullDescription: "Reimaginação moderna de e‑commerce com UI holográfica e interações visuais que destacam produtos e melhoram a conversão.",
         tags: ["Table Game", "UI Design", "Holographic"],
         image: "linear-gradient(45deg, #0f453f 0%, #120626 100%)",
-        behanceUrl: "https://www.behance.net/gallery/236509481/Aguas-das-pedras",
+        behanceUrl: "https://www.behance.net/gallery/250373661/WEBSITE-NORTHEN-HOSUE",
         details: [
             "Prototype built with Three.js for real-time dice physics.",
             "Developed custom shader for holographic overlays."
@@ -87,8 +87,8 @@ const PROJECTS = [
         category: "Jackpot System",
         thumbnailUrl: "images/marketplace.png",
         imageUrl: "images/marketplace.png",
-        description: "Network-wide progressive jackpot UI and celebration effects.",
-        fullDescription: "A cohesive visual system for a multi-game jackpot network. Includes the design of the jackpot meters, trigger animations, and the massive 'Big Win' celebration sequences that take over the screen.",
+        description: "Sistema visual de marca e identidade para marketplace.",
+        fullDescription: "Sistema visual coeso para identidade de marca, incluindo métricas visuais, animações e sequências de celebração para campanhas de alto impacto.",
         tags: ["Jackpot", "VFX", "System Design"],
         image: "linear-gradient(45deg, #453a0f 0%, #120626 100%)",
         behanceUrl: "https://www.behance.net/gallery/220167369/PIC-NIC-SN-",
@@ -98,9 +98,6 @@ const PROJECTS = [
         ]
     }
 ];
-
-
-  addEventListener
 
 const progressBar = document.getElementById('progressBar');
 const navToggle = document.getElementById('navToggle');
@@ -112,12 +109,9 @@ const modalHeader = document.getElementById('modalHeader');
 const modalCategory = document.getElementById('modalCategory');
 const modalTitle = document.getElementById('modalTitle');
 const modalDescription = document.getElementById('modalDescription');
-const modalTags = document.getElementById('modalTags');
 const modalDetails = document.getElementById('modalDetails');
 const modalCoverImage = document.getElementById('modalCoverImage');
 const launchProjectBtn = document.getElementById('launchProjectBtn');
-const contactForm = document.getElementById('contactForm');
-const submitBtn = document.getElementById('submitBtn');
 const toast = document.getElementById('toast');
 const toastMessage = document.getElementById('toastMessage');
 const orb1 = document.getElementById('orb1');
@@ -230,17 +224,12 @@ function renderProjects() {
                 <div class="project-overlay"></div>
 
                 <div class="project-hover-content">
-                    <p class="project-category">${project.category}</p>
-                    <button class="btn btn-outline" type="button">View Details</button>
+                    <button class="btn btn-outline" type="button">Ver detalhes</button>
                 </div>
             </div>
 
             <h3 class="project-title">${project.title}</h3>
             <p class="project-description">${project.description}</p>
-
-            <div class="project-tags">
-                ${project.tags.map(tag => `<span class="project-tag">${tag}</span>`).join('')}
-            </div>
         </div>
     `).join('');
 
@@ -279,7 +268,6 @@ function openModal(project) {
     modalCategory.textContent = project.category;
     modalTitle.textContent = project.title;
     modalDescription.textContent = project.fullDescription;
-    modalTags.innerHTML = project.tags.map(tag => `<span class="modal-tag">${tag}</span>`).join('');
     modalDetails.innerHTML = project.details.map(detail => `<p>${detail}</p>`).join('');
 
     if (launchProjectBtn && project.behanceUrl) {
@@ -317,46 +305,6 @@ document.addEventListener('keydown', (e) => {
     }
 });
 
-contactForm?.addEventListener('submit', async (e) => {
-    e.preventDefault();
-
-    const formData = {
-        name: document.getElementById('name')?.value.trim(),
-        email: document.getElementById('email')?.value.trim(),
-        message: document.getElementById('message')?.value.trim()
-    };
-
-    if (!formData.name || !formData.email || !formData.message) {
-        showToast('Please fill in all fields');
-        return;
-    }
-
-    submitBtn.textContent = 'Sending...';
-    submitBtn.disabled = true;
-
-    try {
-        const response = await fetch('/api/contact', {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json'
-            },
-            body: JSON.stringify(formData)
-        });
-
-        if (!response.ok) {
-            throw new Error('Failed to send');
-        }
-
-        showToast('Message sent! Thanks for reaching out.');
-        contactForm.reset();
-    } catch (error) {
-        showToast('Failed to send message. Please try again.');
-    } finally {
-        submitBtn.textContent = 'Send Message';
-        submitBtn.disabled = false;
-    }
-});
-
 function showToast(message) {
     if (!toast || !toastMessage) return;
 
@@ -387,16 +335,75 @@ function setupHeroCarousel() {
     if (!carousel) return;
 
     const track = carousel.querySelector('.carousel-track');
+    const buttonLeft = carousel.querySelector('.carousel-button-left');
+    const buttonRight = carousel.querySelector('.carousel-button-right');
+    const indicators = Array.from(carousel.querySelectorAll('.carousel-indicator'));
+    
     if (!track) return;
 
     const slides = Array.from(track.querySelectorAll('.carousel-slide'));
     if (slides.length === 0) return;
 
+    let currentIndex = 0;
+    const totalSlides = slides.length;
+
+    // Clone slides for infinite scroll
     slides.forEach(slide => {
         const clone = slide.cloneNode(true);
         clone.classList.add('clone');
         track.appendChild(clone);
     });
+
+    function updateCarousel() {
+        const slideWidth = slides[0].offsetWidth;
+        track.style.transform = `translateX(-${currentIndex * slideWidth}px)`;
+        
+        // Update indicators
+        indicators.forEach((indicator, index) => {
+            indicator.classList.toggle('current-slide', index === currentIndex % totalSlides);
+        });
+    }
+
+    function nextSlide() {
+        currentIndex = (currentIndex + 1) % totalSlides;
+        updateCarousel();
+    }
+
+    function prevSlide() {
+        currentIndex = (currentIndex - 1 + totalSlides) % totalSlides;
+        updateCarousel();
+    }
+
+    // Button event listeners
+    if (buttonRight) {
+        buttonRight.addEventListener('click', nextSlide);
+    }
+    if (buttonLeft) {
+        buttonLeft.addEventListener('click', prevSlide);
+    }
+
+    // Indicator click handlers
+    indicators.forEach((indicator, index) => {
+        indicator.addEventListener('click', () => {
+            currentIndex = index;
+            updateCarousel();
+        });
+    });
+
+    // Auto-play carousel
+    let autoplayInterval = setInterval(nextSlide, 5000);
+
+    // Pause on hover
+    carousel.addEventListener('mouseenter', () => {
+        clearInterval(autoplayInterval);
+    });
+
+    carousel.addEventListener('mouseleave', () => {
+        autoplayInterval = setInterval(nextSlide, 5000);
+    });
+
+    // Initial update
+    updateCarousel();
 }
 
 window.addEventListener('scroll', updateProgressBar);
@@ -408,4 +415,157 @@ document.addEventListener('DOMContentLoaded', () => {
     setupHeroCarousel();
     updateProgressBar();
     updateActiveNav();
+    initSkillsNetwork();
 });
+
+// Skills Network Animation
+function initSkillsNetwork() {
+    const canvas = document.getElementById('skills-canvas');
+    if (!canvas) return;
+
+    const ctx = canvas.getContext('2d');
+    const pills = document.querySelectorAll('.skill-pill');
+    const core = document.querySelector('.skills-core');
+    const network = document.querySelector('.skills-network');
+
+    let mouseX = 0;
+    let mouseY = 0;
+    let energyWaves = [];
+
+    function resizeCanvas() {
+        const rect = network.getBoundingClientRect();
+        canvas.width = rect.width;
+        canvas.height = rect.height;
+    }
+
+    function createEnergyWave(x, y) {
+        energyWaves.push({
+            x: x,
+            y: y,
+            radius: 0,
+            maxRadius: 200,
+            opacity: 1,
+            speed: 2
+        });
+    }
+
+    function updateEnergyWaves() {
+        energyWaves = energyWaves.filter(wave => {
+            wave.radius += wave.speed;
+            wave.opacity -= 0.02;
+            return wave.opacity > 0;
+        });
+    }
+
+    function drawEnergyWaves() {
+        energyWaves.forEach(wave => {
+            ctx.save();
+            ctx.globalAlpha = wave.opacity;
+            ctx.strokeStyle = `rgba(138, 60, 255, ${wave.opacity * 0.3})`;
+            ctx.lineWidth = 2;
+            ctx.beginPath();
+            ctx.arc(wave.x, wave.y, wave.radius, 0, Math.PI * 2);
+            ctx.stroke();
+            ctx.restore();
+        });
+    }
+
+    function drawConnections() {
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+        const coreRect = core.getBoundingClientRect();
+        const networkRect = network.getBoundingClientRect();
+
+        const coreX = coreRect.left + coreRect.width / 2 - networkRect.left;
+        const coreY = coreRect.top + coreRect.height / 2 - networkRect.top;
+
+        pills.forEach((pill, index) => {
+            const pillRect = pill.getBoundingClientRect();
+            const pillX = pillRect.left + pillRect.width / 2 - networkRect.left;
+            const pillY = pillRect.top + pillRect.height / 2 - networkRect.top;
+
+            // Create animated gradient
+            const time = Date.now() * 0.001;
+            const offset = Math.sin(time + index) * 0.5 + 0.5;
+
+            const gradient = ctx.createLinearGradient(coreX, coreY, pillX, pillY);
+            gradient.addColorStop(0, `rgba(138, 60, 255, ${0.4 + offset * 0.3})`);
+            gradient.addColorStop(0.5, `rgba(255, 71, 218, ${0.3 + offset * 0.2})`);
+            gradient.addColorStop(1, `rgba(66, 232, 255, ${0.2 + offset * 0.1})`);
+
+            ctx.strokeStyle = gradient;
+            ctx.lineWidth = 2 + Math.sin(time * 2 + index) * 0.3;
+            ctx.shadowColor = 'rgba(138, 60, 255, 0.3)';
+            ctx.shadowBlur = 8;
+
+            // Draw flowing line with animation
+            const distance = Math.sqrt((pillX - coreX) ** 2 + (pillY - coreY) ** 2);
+            const steps = 50;
+            const flowSpeed = 0.02;
+
+            ctx.beginPath();
+            for (let i = 0; i <= steps; i++) {
+                const t = i / steps;
+                const x = coreX + (pillX - coreX) * t;
+                const y = coreY + (pillY - coreY) * t;
+
+                // Add wave effect
+                const wave = Math.sin(t * Math.PI * 4 + time * flowSpeed + index) * 3;
+                const perpX = -(pillY - coreY) / distance * wave;
+                const perpY = (pillX - coreX) / distance * wave;
+
+                if (i === 0) {
+                    ctx.moveTo(x + perpX, y + perpY);
+                } else {
+                    ctx.lineTo(x + perpX, y + perpY);
+                }
+            }
+            ctx.stroke();
+
+            // Reset shadow
+            ctx.shadowBlur = 0;
+        });
+
+        drawEnergyWaves();
+    }
+
+    function animate() {
+        updateEnergyWaves();
+        drawConnections();
+        requestAnimationFrame(animate);
+    }
+
+    // Mouse interaction
+    network.addEventListener('mousemove', (e) => {
+        const rect = network.getBoundingClientRect();
+        mouseX = e.clientX - rect.left;
+        mouseY = e.clientY - rect.top;
+
+        // Parallax effect on pills
+        pills.forEach((pill, index) => {
+            const pillRect = pill.getBoundingClientRect();
+            const pillCenterX = pillRect.left + pillRect.width / 2 - rect.left;
+            const pillCenterY = pillRect.top + pillRect.height / 2 - rect.top;
+
+            const deltaX = (mouseX - pillCenterX) * 0.02;
+            const deltaY = (mouseY - pillCenterY) * 0.02;
+
+            pill.style.transform = `translate(${deltaX}px, ${deltaY}px)`;
+        });
+
+        // Create energy wave on mouse move
+        if (Math.random() < 0.05) { // 5% chance per move
+            createEnergyWave(mouseX, mouseY);
+        }
+    });
+
+    network.addEventListener('mouseleave', () => {
+        pills.forEach(pill => {
+            pill.style.transform = '';
+        });
+    });
+
+    resizeCanvas();
+    window.addEventListener('resize', resizeCanvas);
+    animate();
+}

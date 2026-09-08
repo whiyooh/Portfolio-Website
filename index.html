@@ -14,9 +14,11 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="styles.css">
+    
+    
 </head>
 <body>
     <div class="progress-bar" id="progressBar"></div>
@@ -24,15 +26,16 @@
     <nav class="nav" id="nav">
         <div class="nav-container">
             <a href="#home" class="nav-logo">
-                PORTFOLIO <span class="text-primary">WHIYOOH</span>
+                <img src="images/Mask group (2).png" alt="Whiyooh" class="nav-logo-image">
             </a>
 
             <div class="nav-menu">
                 <a href="#home" class="nav-link active" data-section="home">Home</a>
-                <a href="#projects" class="nav-link" data-section="projects">Projects</a>
-                <a href="#about" class="nav-link" data-section="about">About</a>
-                <a href="#contact" class="nav-link" data-section="contact">Contact</a>
-                <a href="#contact" class="btn btn-primary btn-glow">Let's Talk</a>
+                <a href="#projects" class="nav-link" data-section="projects">Projetos</a>
+                <a href="#about" class="nav-link" data-section="about">Sobre</a>
+                <a href="#skills" class="nav-link" data-section="skills">Habilidades</a>
+                <a href="#contact" class="nav-link" data-section="contact">Contato</a>
+                <a href="#contact" class="btn btn-primary btn-glow">Vamos conversar</a>
             </div>
 
             <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
@@ -43,9 +46,10 @@
 
     <div class="mobile-menu" id="mobileMenu">
         <a href="#home" class="mobile-link" data-section="home">Home</a>
-        <a href="#projects" class="mobile-link" data-section="projects">Projects</a>
-        <a href="#about" class="mobile-link" data-section="about">About</a>
-        <a href="#contact" class="mobile-link" data-section="contact">Contact</a>
+        <a href="#projects" class="mobile-link" data-section="projects">Projetos</a>
+        <a href="#about" class="mobile-link" data-section="about">Sobre</a>
+        <a href="#skills" class="mobile-link" data-section="skills">Skills</a>
+        <a href="#contact" class="mobile-link" data-section="contact">Contato</a>
     </div>
 
     <section id="home" class="hero">
@@ -63,7 +67,7 @@
             </h2>
 
             <p class="hero-subtitle">
-                Desenvolvendo experiências visuais e digitais que unem design, tecnologia e interação.
+                Desenvolvendo experiências visuais e digitais que unem design e tecnologia.
             </p>
 
             <div class="hero-buttons">
@@ -89,7 +93,7 @@
                             <img src="images\caroussel inicial\BANNER DO MEU SITE PORTFOLIO.png" alt="Carrossel imagem 2">
                         </li>
                         <li class="carousel-slide">
-                            <img src="images\caroussel inicial\BANNER AGUA DAS PEDRA PROT.png" alt="Carrossel imagem 3">
+                            <img src="images\caroussel inicial\BANNER AGUA DAS PEDRA.png" alt="Carrossel imagem 3">
                         </li>
                     </ul>
                 </div>
@@ -105,12 +109,6 @@
                         <path d="M9 6l6 6-6 6"/>
                     </svg>
                 </button>
-
-                <div class="carousel-indicators">
-                    <button class="carousel-indicator current-slide" aria-label="Slide 1"></button>
-                    <button class="carousel-indicator" aria-label="Slide 2"></button>
-                    <button class="carousel-indicator" aria-label="Slide 3"></button>
-                </div>
             </div>
         </div>
     </section>
@@ -157,7 +155,7 @@
                     <div class="about-avatar">
                         <div class="avatar-placeholder">
     
-                            <span><img src="#" alt=""></span>
+                            <span><img src="images\image.webp" alt=""></span>
                         </div>
                     </div>
                     <div class="about-glow"></div>
@@ -180,27 +178,67 @@
         </div>
     </section>
 
-    <section id="skills" class="skills">
-        <div class="container">
-            <div class="section-header fade-in">
-                <h2 style="text-align: center;" class="section-title">SKILLS <span class="text-primary">CRIATIVAS</span></h2>
-                <div class="section-line"></div>
-            </div>
-            <div style=" display:c;"
-                <ul class="skills-list"> 
-                    <li><span class="skill-dot"></span>Design Visual & Concept Art</li>
-                    <li><span class="skill-dot"></span>Landing page Design</li>
-                    <li><span class="skill-dot"></span>Web Art Development</li>
-                        <li><span class="skill-dot"></span>AI Art Direction</li>
-                        <li><span class="skill-dot"></span>UI/UX Layouts</li>
-                        <li><span class="skill-dot"></span>Adobe Creative Suite</li>
-                        <li><span class="skill-dot"></span>Figma &amp; Sketch</li>
-                        <li><span class="skill-dot"></span>3D Modeling &amp; Animation</li>
-                  </ul></div>
+    <section id="skills" class="skills-section" aria-labelledby="skills-heading">
+        <div class="skills-section-bg" aria-hidden="true">
+            <div class="skills-section-orb skills-section-orb--1"></div>
+            <div class="skills-section-orb skills-section-orb--2"></div>
+            <div class="skills-section-vignette"></div>
+        </div>
 
-                     
-                    </ul>
+        <div class="container skills-section-inner">
+            <header class="skills-section-header fade-in">
+                <p class="skills-eyebrow">Expertise</p>
+                <h2 id="skills-heading" class="skills-heading">
+                    <span class="skills-heading-main">SKILLS</span>
+                    <span class="skills-heading-accent">CRIATIVAS</span>
+                </h2>
+                <p class="skills-lead">
+                    Domínio técnico e direção visual — ferramentas, layout e narrativa digital com precisão de produto premium.
+                </p>
+                <div class="skills-header-line"></div>
+            </header>
+
+            <div class="skills-network">
+                <div class="skills-core">
+                    <img src="images/nucleo brob.png" alt="butterfly" class="core-butterfly">
+                    <div class="core-glow"></div>
+                    <div class="core-pulse"></div>
                 </div>
+                <div class="skills-particles">
+                    <div class="skill-pill" data-skill="Design Visual & Concept Art" data-level="95%">
+                        <span class="pill-text">Design Visual & Concept Art</span>
+                        <div class="pill-glow"></div>
+                    </div>
+                    <div class="skill-pill" data-skill="Landing Page Design" data-level="88%">
+                        <span class="pill-text">Landing Page Design</span>
+                        <div class="pill-glow"></div>
+                    </div>
+                    <div class="skill-pill" data-skill="Web Art Development" data-level="86%">
+                        <span class="pill-text">Web Art Development</span>
+                        <div class="pill-glow"></div>
+                    </div>
+                    <div class="skill-pill" data-skill="AI Art Direction" data-level="84%">
+                        <span class="pill-text">AI Art Direction</span>
+                        <div class="pill-glow"></div>
+                    </div>
+                    <div class="skill-pill" data-skill="UI/UX Layouts" data-level="92%">
+                        <span class="pill-text">UI/UX Layouts</span>
+                        <div class="pill-glow"></div>
+                    </div>
+                    <div class="skill-pill" data-skill="Adobe Creative Suite" data-level="91%">
+                        <span class="pill-text">Adobe Creative Suite</span>
+                        <div class="pill-glow"></div>
+                    </div>
+                    <div class="skill-pill" data-skill="Figma & Sketch" data-level="93%">
+                        <span class="pill-text">Figma & Sketch</span>
+                        <div class="pill-glow"></div>
+                    </div>
+                    <div class="skill-pill" data-skill="3D Modeling & Animation" data-level="89%">
+                        <span class="pill-text">3D Modeling & Animation</span>
+                        <div class="pill-glow"></div>
+                    </div>
+                </div>
+                <canvas id="skills-canvas" class="skills-canvas"></canvas>
             </div>
         </div>
     </section>
@@ -210,6 +248,17 @@
             <div class="section-header fade-in">
                 <h2 class="section-title">WORK <span class="text-primary">SELECT</span></h2>
                 <div class="section-line"></div>
+                <a
+                    class="behance-projects-link"
+                    href="https://www.behance.net/whiyooh"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    Todos os projetos disponíveis no Behance
+                    <svg viewBox="0 0 24 24" aria-hidden="true">
+                        <path d="M5 12h14M13 6l6 6-6 6"/>
+                    </svg>
+                </a>
             </div>
             <div class="projects-grid" id="projectsGrid"></div>
         </div>
@@ -237,24 +286,19 @@
 
             <div class="modal-body">
                 <div class="modal-main">
-                    <h3>About the Project</h3>
+                    <h3>Sobre o projeto</h3>
                     <p class="modal-description" id="modalDescription"></p>
                     <div class="modal-details" id="modalDetails"></div>
                 </div>
 
                 <div class="modal-sidebar">
                     <div class="modal-section">
-                        <h4>Technologies</h4>
-                        <div class="modal-tags" id="modalTags"></div>
-                    </div>
-
-                    <div class="modal-section">
                         <h4>Role</h4>
                         <p>Lead UI Designer<br>Art Direction</p>
                     </div>
 
                     <button id="launchProjectBtn" class="btn btn-primary btn-glow btn-full">
-                        Launch Project
+                        Ver projeto
                         <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                             <path d="M5 12h14M12 5l7 7-7 7"/>
                         </svg>
@@ -274,62 +318,65 @@
                 </h2>
 
                 <p class="contact-subtitle">
-                    Pronto para impulsionar o design do seu produto? Entre em contato e vamos conversar sobre seu próximo grande sucesso.
+                    Pronto para impulsionar o design do seu produto? Aqui estão minhas redes e o caminho direto para falar comigo com estilo.
                 </p>
             </div>
 
-            <div class="contact-form-wrapper glass-panel fade-in">
-                <form class="contact-form" id="contactForm">
-                    <div class="form-row">
-                        <div class="form-group">
-                            <label for="name">Name</label>
-                            <input type="text" id="name" name="name" class="form-input" placeholder="John Doe" required>
+                        <div class="social-links">
+                                <a
+                                        href="https://www.linkedin.com/in/whiyooh/"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        class="social-btn"
+                                        aria-label="LinkedIn"
+                                >
+                                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                                                <path fill="currentColor" d="M6.5 8.5H3V21h3.5V8.5ZM4.75 3A2.05 2.05 0 1 0 4.75 7.1 2.05 2.05 0 0 0 4.75 3ZM21 13.35c0-3.75-2-5.5-4.68-5.5-2.16 0-3.13 1.19-3.67 2.03V8.5H9.15V21h3.5v-6.19c0-1.63.3-3.2 2.32-3.2 2 0 2.03 1.86 2.03 3.3V21H21v-7.65Z"/>
+                                        </svg>
+                                </a>
+
+                                <a
+                                        href="https://www.instagram.com/whiyooh/"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        class="social-btn"
+                                        aria-label="Instagram"
+                                >
+                                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                                                <rect width="17" height="17" x="3.5" y="3.5" rx="4.5" fill="none" stroke="currentColor" stroke-width="2"/>
+                                                <circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="2"/>
+                                                <circle cx="17.5" cy="6.5" r="1" fill="currentColor"/>
+                                        </svg>
+                                </a>
+
+                                <a
+                                        href="https://www.tiktok.com/@whiyooh"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        class="social-btn"
+                                        aria-label="TikTok"
+                                >
+                                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                                                <path fill="currentColor" d="M15.5 3h3.06c.2 1.6 1.1 2.8 2.44 3.53v3.16a8.25 8.25 0 0 1-2.44-.73v6.17a5.87 5.87 0 1 1-5.87-5.87c.26 0 .52.02.77.05v3.22a2.7 2.7 0 1 0 1.54 2.6V3Z"/>
+                                        </svg>
+                                </a>
+
+                                <a
+                                    href="https://wa.me/+5511983538334"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    class="social-btn"
+                                    aria-label="WhatsApp"
+                                >
+                                    <svg viewBox="0 0 24 24" aria-hidden="true">
+                                        <path fill="currentColor" d="M12 2.5a9.5 9.5 0 0 0-8.2 14.3L2.5 21.5l4.84-1.27A9.5 9.5 0 1 0 12 2.5Zm0 17a7.45 7.45 0 0 1-3.8-1.04l-.27-.16-2.87.75.77-2.8-.18-.28A7.5 7.5 0 1 1 12 19.5Zm4.12-5.63c-.23-.12-1.37-.68-1.58-.76-.21-.08-.36-.12-.51.12-.15.23-.58.76-.71.92-.13.15-.26.17-.49.06-.23-.12-.96-.35-1.83-1.11-.68-.6-1.14-1.34-1.27-1.57-.13-.23-.01-.35.1-.46.1-.1.23-.26.34-.39.12-.13.15-.23.23-.38.08-.15.04-.29-.02-.41-.06-.12-.51-1.23-.7-1.69-.18-.44-.37-.38-.51-.39h-.43c-.15 0-.39.06-.6.29-.21.23-.78.76-.78 1.86s.8 2.16.91 2.31c.12.15 1.57 2.4 3.8 3.36.53.23.94.37 1.26.47.53.17 1.01.15 1.39.09.42-.06 1.37-.56 1.56-1.1.19-.54.19-1 .13-1.1-.05-.1-.2-.16-.43-.28Z"/>
+                                    </svg>
+                                </a>
                         </div>
 
-                        <div class="form-group">
-                            <label for="email">Email</label>
-                            <input type="email" id="email" name="email" class="form-input" placeholder="john@example.com" required>
-                        </div>
-                    </div>
-
-                    <div class="form-group">
-                        <label for="message">Message</label>
-                        <textarea id="message" name="message" class="form-input form-textarea" placeholder="Tell me about your project..." required></textarea>
-                    </div>
-
-                    <button type="submit" class="btn btn-primary btn-lg btn-glow btn-full" id="submitBtn">
-                        Send Message
-                    </button>
-                </form>
-
-                <div class="contact-footer">
-                    <p class="copyright">© 2025 WHIYOOH. All rights reserved.</p>
-
-                    <div class="social-links">
-                        <a href="mailto:vitorianogueirax4@gmail.com" class="social-link" aria-label="Email">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
-                                <polyline points="22,6 12,13 2,6"/>
-                            </svg>
-                        </a>
-
-                        <a href="https://www.linkedin.com/in/whiyooh/" class="social-link" aria-label="LinkedIn">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
-                                <rect x="2" y="9" width="4" height="12"/>
-                                <circle cx="4" cy="4" r="2"/>
-                            </svg>
-                        </a>
-
-                        <a href="https://www.instagram.com/whiyooh/" class="social-link" aria-label="Instagram">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
-                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
-                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
-                            </svg>
-                        </a>
-                    </div>
-                </div>
+            <div class="contact-footer">
+                <p class="copyright">© 2025 WHIYOOH. Todos os direitos reservados.</p>
+                <p class="portfolio-credit">Portfólio 100% desenvolvido e codado por mim.</p>
             </div>
         </div>
     </section>
