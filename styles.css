@@ -2,11 +2,11 @@
     --bg-dark: #120626;
     --bg-darker: #0a0312;
     --primary: #8A3CFF;
-    --secondary: #FF47DA;
+    --secondary: #ff8de8;
     --accent: #2a0342;
     --text: #ffffff;
     --text-muted: #a78bfa;
-    --border: rgba(138, 60, 255, 0.2);
+    --border: rgba(44, 8, 25, 0.2);
     --glass-bg: rgba(255, 255, 255, 0.05);
     --glass-border: rgba(255, 255, 255, 0.1);
 
@@ -1146,7 +1146,7 @@ img {
     color: #d8d3ff;
     background: rgba(138, 60, 255, 0.16);
     border-radius: 999px;
-    border: 1px solid rgba(138, 60, 255, 0.25);
+    border: 1px solid rgba(119, 58, 211, 0.25);
     width: fit-content;
 }
 
@@ -1317,7 +1317,7 @@ img {
 
 .about {
     padding: var(--section-padding) 0;
-    background: linear-gradient(to bottom, var(--bg-dark), rgba(0, 0, 0, 0.4));
+    background: linear-gradient(to bottom, var(--bg-dark), rgba(75, 19, 2, 0.486));
 }
 
 .about-grid {
@@ -1351,7 +1351,7 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(135deg, rgba(138, 60, 255, 0.2), rgba(255, 71, 218, 0.2));
+    background: linear-gradient(135deg, rgba(245, 39, 118, 0.781), rgba(255, 71, 218, 0.2));
 }
 
 .avatar-placeholder span {
